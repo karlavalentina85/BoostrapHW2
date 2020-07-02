@@ -4,10 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
   
   <style>
     
@@ -15,12 +16,19 @@
     .navbar {
         background-color: steelblue;
         color: silver;
+        font-family: 'PT Serif', serif;
+        font-family: 'Roboto Slab', serif;
       }
   
       .nav-link {
         color:silver;
       }
-   
+      body {
+        font-family: 'PT Serif', serif;
+        font-family: 'Roboto Slab', serif;
+        background-image: url("Assets/Images/Stgo.jpg");
+      }
+      
       .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(211,211,211, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
       }
@@ -28,7 +36,10 @@
       .footer-style {
         background-color:steelblue;
       }
-
+      h1 {
+         color: silver;
+      }
+     
       .fa-linkedin {
         color: silver;
       }
@@ -40,7 +51,7 @@
       .fa-github {
         color:silver;
       }
-
+    
  </style> 
 
     <title>Contact Form</title>
@@ -48,7 +59,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg sticky-top">
-      <span class="navbar-brand mb-1 h1">Karla Silva</span>
+      <span class="navbar-brand mb-1 h1">Karla Silva Rodríguez</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,16 +80,15 @@
         </ul>
       </div>
     </nav>
+      <form id="contact-form" method="post">
 
-    <form id="contact-form" method="post">
-
-    <div class="container p-3 my-3">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1>Contact Me</h1>
-          <div class="messages"></div>
-        </div>
-      </div>  
+     <div class="container p-3 my-3">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>Contact Me</h1>
+            <div class="messages"></div>
+          </div>
+        </div>  
       <div class="row">
         <div class="col-md-4">
           <div class="form-group">
@@ -127,8 +137,7 @@
           </div>
         </div>
       </div>
-    </div>
-            
+     </div>     
     </form>
 
 
