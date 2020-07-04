@@ -1,0 +1,50 @@
+.navbar {
+    background-color: steelblue;
+    color: silver;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  .nav-link {
+    color:silver;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(211,211,211, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  body {
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+    color: silver;
+  }
+
+  .footer-style {
+    background-color:steelblue;
+    height: 40px;
+  }
+
+  .fa-linkedin {
+    color: silver;
+  }
+
+  .fa-instagram {
+    color:silver;
+  } 
+
+  .fa-github {
+    color:silver;
+  }
+  section.portfolio{
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: steelblue;
+  }
+ .material-icons {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;  
+    
+ }
+  

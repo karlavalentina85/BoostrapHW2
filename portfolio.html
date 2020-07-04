@@ -6,55 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
-
-    <style>
-    
-      .navbar {
-        background-color: steelblue;
-        color: silver;
-        font-family: 'PT Serif', serif;
-        font-family: 'Roboto Slab', serif;
-      }
-     
-      .nav-link {
-        color:silver;
-      }
-      .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(211,211,211, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-      }
-
-      body {
-        font-family: 'PT Serif', serif;
-        font-family: 'Roboto Slab', serif;
-        background-image: url("Assets/Images/Stgo.jpg");
-      }
-      section{
-        margin-top: 5rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
-      .footer-style {
-        background-color:steelblue;
-      }
-
-      .fa-linkedin {
-        color: silver;
-      }
-
-      .fa-instagram {
-        color:silver;
-      }
-      .fa-github {
-        color:silver;
-      }
-
-     </style> 
+    <link rel="stylesheet" href="Assets/style.css">
+   
     <title>Portfolio</title>
   </head>
-  <body>
+  <body style="background-image: url('Assets/Images/Stgo.jpg')">
 
 
 
@@ -80,45 +41,57 @@
         </ul>
       </div>
     </nav>
-    <section>
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <a href="https://karlavalentina85.github.io/ER-Finder/"  target="_blank"><img src="" class="img-fluid" alt="ER-Finder"></a>
-            <div class="card-body">
-              <h5 class="card-title">Project I</h5>
-              <p class="card-text">First Project called "ER Finder". An application that helps the user to locate the nearest Emergency Rooms in their radar.</p>
+    <section class="portfolio">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center">Portfolio</h1>
+          <p class="lead text-center">This is part of the programming design work I've done up until now. </p>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body bg-light">
+                  <h5 class="card-title text-secondary text-center">Project I</h5>
+                  <center><span class="material-icons">
+                    local_hospital
+                    </span></center>
+                  <p class="card-text">First Project called "ER Finder". An application that helps the user to locate the nearest Emergency Rooms in their radar.</p>
+                  <a href="https://karlavalentina85.github.io/ER-Finder/"class="btn btn-primary">Check it out</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <a href="https://karlavalentina85.github.io/Weather-Dashboard/" target="_blank"><img src="" class="img-fluid" alt="Weather-Dashboard"></a>
-            <div class="card-body">
-              <h5 class="card-title">Weather-Dashboard</h5>
-              <p class="card-text">Application that displays current and forecasts weather for every City in the U.S.</p>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body bg-light">
+                  <h5 class="card-title text-secondary text-center">Weather-Dashboard</h5>
+                <center><span class="material-icons">
+                    wb_cloudy
+                    </span></center>
+                  <p class="card-text">Application that displays current and forecasts weather for every City in the U.S.</p>
+                  <a href="https://karlavalentina85.github.io/Weather-Dashboard/" class="btn btn-primary">Check it out</a>
+                </div> 
+              </div>
             </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body bg-light">
+                    <h5 class="card-title text-secondary text-center">Password Generator</h5>
+                    <center><span class="material-icons">vpn_key</span></center>
+                    <p class="card-text"> This Web Application generates a random password based on user-selected criteria. </p>
+                    <a href="https://karlavalentina85.github.io/PasswordGenerator/" class="btn btn-primary">Check it out</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="card">
+                  <div class="card-body bg-light">
+                    <h5 class="card-title text-secondary">Coming soon</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> 
+                </div>
+              </div>  
           </div>
         </div>
-        <div class="col mb-4">
-          <div class="card">
-            <a href="https://karlavalentina85.github.io/CODEQUIZ/"target="_blank"><img src="" class="img-fluid" alt="CODEQUIZ">
-            <div class="card-body">
-              <h5 class="card-title">JS Code Quiz</h5>
-              <p class="card-text">A quiz to test your Javascript knowledge</p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">This is ..</p>
-           </div>
-          </div>
-        </div>
-      </div>
   </section>
     <footer class="container-fluid footer-style fixed-bottom">
       <div class="container">
@@ -128,6 +101,9 @@
             <a  target="_blank" href="https://www.github.com/karlavalentina85" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
             <a  target="_blank" href="https://www.instagram.com/kokakonkuky" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
           </div>
+          <div class="col-md-6">
+            <span class="font-italic"> ©2020 Karla Silva R. </span>
+          </div> 
         </div>
       </div>
     </footer>
