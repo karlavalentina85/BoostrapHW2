@@ -44,7 +44,9 @@
  .material-icons {
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;  
-    
+    font-size: 36px;    
  }
-  
+.card-header{
+    margin-top: 80px;
+    
+}
