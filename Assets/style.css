@@ -17,44 +17,49 @@
      color: silver;
     font-family: 'Lato', sans-serif;    
   }
-
-  .footer-style {
+#aboutme{
+    margin-top: 90px;
+    margin-left: 80px;
+    padding-right: 20px;
+    background-color: midnightblue;
+}
+.img-thumbnail{
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.footer-style {
     background-color:midnightblue;
     height: 50px;
-  }
-
-  .fa-linkedin {
+ }
+.fa-linkedin {
     color: silver;
     font-size: 30px;
     width: 50px;
     position: relative;
     top: 10px;
-  }
-
-  .fa-instagram {
+}
+.fa-instagram {
     color:silver;
     font-size: 30px;
     width: 50px;
     position: relative;
     top: 10px;
-  } 
-
-  .fa-github {
+} 
+.fa-github {
     color:silver;
     font-size: 30px;
     width: 50px;
     position: relative;
     top: 10px;
-  }
-
-  section.portfolio{
+}
+section.portfolio{
     margin-top: 5rem;
     padding-left: 2rem;
     padding-right: 2rem;
     color: midnightblue;
     font-family: 'Lato', sans-serif;
-    
-  }
+    margin-bottom: 5rem;
+}
  .material-icons {
     font-weight: normal;
     font-style: normal;
